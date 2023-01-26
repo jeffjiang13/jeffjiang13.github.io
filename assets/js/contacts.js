@@ -41,7 +41,7 @@ function submitForm(e, formName) {
 
     $.ajax({
         type: "POST",
-        url: 'mail.php',
+        url: 'https://jeffjiang13.github.io/mail.php',
         data: formData,
         success: function () {
             console.log('success');
