@@ -1,6 +1,8 @@
 <?php
+    require 'vendor/autoload.php';
 
-	$emailTo = "jeff.jiang13@gmail.com", "test@test.com"; // Enter your email for feedbacks here
+
+	$emailTo = "jeff.jiang13@gmail.com"; // Enter your email for feedbacks here
 
 	$headers = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/html; charset=utf-8\r\n";
